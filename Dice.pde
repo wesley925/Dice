@@ -42,32 +42,32 @@ class Die //a single dice cube
 
   void show()
   {
-    fill(#7692FF);
+    fill(118,147,255);
     strokeWeight(2);
     stroke(#ABD2FA);
     rect(myX, myY, 100, 100);
     
     if (numDie == 1)
     {
-      fill(#3D518C);
+      fill(61,81,140);
       ellipse(myX + 50, myY + 50, 10, 10);
     }
     else if (numDie == 2)
     {
-      fill(#3D518C);
+      fill(61,81,140);
       ellipse(myX + 35, myY + 50, 10, 10);
       ellipse(myX + 65, myY + 50, 10, 10);
     }
     else if (numDie == 3)
     {
-      fill(#3D518C);
+      fill(61,81,140);
       ellipse(myX + 30, myY + 30, 10, 10);
       ellipse(myX + 50, myY + 50, 10, 10);
       ellipse(myX + 70, myY + 70, 10, 10);
     }
     else if (numDie == 4)
     {
-      fill(#3D518C);
+      fill(61,81,140);
       ellipse(myX + 30, myY + 30, 10, 10);
       ellipse(myX + 70, myY + 30, 10, 10);
       ellipse(myX + 30, myY + 70, 10, 10);
@@ -75,7 +75,7 @@ class Die //a single dice cube
     }
     else if (numDie == 5)
     {
-      fill(#3D518C);
+      fill(61,81,140);
       ellipse(myX + 30, myY + 30, 10, 10);
       ellipse(myX + 70, myY + 30, 10, 10);
       ellipse(myX + 30, myY + 70, 10, 10);
@@ -84,7 +84,7 @@ class Die //a single dice cube
     }
     else if (numDie == 6)
     {
-      fill(#3D518C);
+      fill(61,81,140);
       ellipse(myX + 28, myY + 30, 10, 10);
       ellipse(myX + 72, myY + 30, 10, 10);
       ellipse(myX + 28, myY + 70, 10, 10);
